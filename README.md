@@ -1,5 +1,5 @@
 # 🚀 Introduction
-This web application contains three different areas. A **client directory** that acts as the frontend of the application. A **express server directory**, which works as mocked REST service. And lastly we have a **graphql server** directory.
+This web application contains three different areas. A **client directory** that acts as the frontend of the application. A **express server directory**, which works as a mocked REST service. And lastly we have a **graphql server** directory.
 
 I will explain below how to install the dependencies needed and run the different servers on your local machine.
 
@@ -30,7 +30,7 @@ In addition to validation I made a simple component that renders feedback for er
 
 ---
 ## 🌍 Client directory
-The client server is built using **React** and the css extension **Sass**. The **/src** directory contains a lot of directories. Look below to help get an overview of the directory structure of **/src**:
+The client server is built using **React** and the css extension **Sass**. The **/src** directory contains directories with sub-directories. Take some time to look through the directories and files to understand the structure. Look below to help get an overview of the directory structure of **/src**:
 
 ```
 ├── client
@@ -46,7 +46,7 @@ cd client
 npm install
 ```
 
-### **2. run client server**
+### **2. Run client server**
 Here you just simple run:
 ```
 npm run start
@@ -68,7 +68,7 @@ cd express-server
 npm install
 ```
 
-### **2. run express server**
+### **2. Run express server**
 Here you just simple run:
 ```
 npm run start
@@ -88,7 +88,7 @@ cd graphql-server
 npm install
 ```
 
-### **2. run graphql server**
+### **2. Run graphql server**
 Here you just simple run:
 ```
 npm run start
