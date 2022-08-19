@@ -47,7 +47,7 @@ npm install
 ```
 
 ### **2. Run client server**
-Here you just simple run:
+Here you just simply run:
 ```
 npm run start
 ```
@@ -57,7 +57,7 @@ The server will run on port *3000*.
 ---
 
 ## 🎓 Express-server directory
-The express server uses the web framework Express. Here we have a **/src** directory. This directory contains a **/routes** directory, that handle all the endpoints we will be calling. For the logic of every endpoint we have a **/controllers** directory with different files for creating the objects needed.
+The express server uses the web framework Express. Here we also have a **/src** directory. This directory contains a **/routes** directory, that handle all the endpoints we will be calling. For the logic of every endpoint we have a **/controllers** directory with different files for creating the data objects needed.
 
 Lastly we have a **/data** directory, that simple mimics a database by having different `JSON` files.
 
@@ -69,7 +69,7 @@ npm install
 ```
 
 ### **2. Run express server**
-Here you just simple run:
+Here you just simply run:
 ```
 npm run start
 ```
@@ -89,7 +89,7 @@ npm install
 ```
 
 ### **2. Run graphql server**
-Here you just simple run:
+Here you just simply run:
 ```
 npm run start
 ```
