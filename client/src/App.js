@@ -24,7 +24,7 @@ function App() {
   });
 
   // HOOKS
-  const { calculateFacilityExposure, error, loading, data, reset } = useCalculation(input);
+  const { calculateFacilityExposure, error, loading, data, reset } = useCalculation();
   
   if (error) return <ErrorMessage error={error} back={reset} />;
 
