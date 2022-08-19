@@ -1,0 +1,68 @@
+@import "./fonts.scss";
+
+h2 {
+    font-family: $heading-2-family;
+    font-size: $heading-2-fontSize;
+    font-weight: $heading-2-fontWeight;
+    color: $heading-2-color;
+    margin-bottom: 0;
+  }
+
+  
+p {
+    font-family: $paragraph-family;
+    font-size: $paragraph-fontSize;
+    font-weight: $paragraph-fontWeight;
+    color: $paragraph-color;
+    width: 750px;
+    text-align: center;
+    opacity: .7;
+  }
+
+.primary-btn {
+    border-radius: 100px;
+    height: 48px;
+    background: linear-gradient(183deg, rgba(18,103,156,1) 35%, rgba(16,85,129,1) 100%);
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.input {
+    border-radius: 100px;
+    height: 44px;
+    padding-left: 2rem;
+    border-radius: 24px 0 0 24px;
+    padding-right: 1.5rem;
+    border: 1px solid #ebe8e4;
+}
+
+.disabled-btn {
+    background: #8d99ae;
+    height: 50px;
+    cursor: not-allowed;
+}
+
+.input-error {
+    outline: 1px solid #d90429;
+    color: #d90429;
+    &::placeholder {
+        color: #d90429;
+    }
+}
+
+.validation-error {
+    position: absolute;
+    width: 100%;
+
+    p {
+        color: #d90429;
+        width: 100% !important;
+    }
+}

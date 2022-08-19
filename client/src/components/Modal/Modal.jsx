@@ -17,8 +17,8 @@ const Modal = ({ close, data }) => {
           </div>
           <div className="modalActions">
             <div className="actionsContainer">
-              <button className="deleteBtn" onClick={() => close()}>
-                Close
+              <button className="primary-btn" onClick={() => close()}>
+                Close window
               </button>
             </div>
           </div>
