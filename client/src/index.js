@@ -4,10 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// APOLLO
+import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
+
+// Instantiate the ApolloClient, which is used as prop in the ApolloProvider wrapper below.
+const client = new ApolloClient({ 
+  uri: 'http://localhost:4000',
+  cache: new InMemoryCache()
+});
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ApolloProvider client={client}>
+      <App />
+    </ApolloProvider>
   </React.StrictMode>
 );
 

@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.1",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.6.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.19"
+  }
+}
