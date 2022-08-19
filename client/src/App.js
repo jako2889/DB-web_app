@@ -16,14 +16,15 @@ import BarLoader from "react-spinners/BarLoader";
 import ErrorMessage from './components/ErrorMessage/ErrorMessage';
 
 function App() {
-  // HOOKS
-  const { calculateFacilityExposure, error, loading, data, reset } = useCalculation();
   // STATE
   const [input, setInput] = useState('');
   const [validationError, setValidationError] = useState({
     error: false,
     message: ''
   });
+
+  // HOOKS
+  const { calculateFacilityExposure, error, loading, data, reset } = useCalculation(input);
   
   if (error) return <ErrorMessage error={error} back={reset} />;
 
